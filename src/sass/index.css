@@ -1,0 +1,103 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(245, 232, 209);
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px;
+}
+button:hover {
+  background-color: rgb(34, 58, 163);
+  color: rgb(245, 232, 209);
+}
+
+form {
+  padding-block: 30px;
+}
+
+input {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  background-color: rgb(34, 58, 163);
+}
+
+h1 {
+  color: rgb(245, 232, 209);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.photo-card {
+  box-shadow: 7px 7px 7px rgb(173, 155, 123);
+}
+.photo-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.image {
+  width: 400px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.info {
+  padding-inline: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: 10px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.found-notify,
+.end-notify {
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(34, 58, 163);
+}
+
+.load-buttons {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */

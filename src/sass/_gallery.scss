@@ -1,0 +1,55 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .photo-card {
+    box-shadow: 7px 7px 7px rgb(173, 155, 123);
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  }
+  .image {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .info {
+    padding-inline: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // gap: 1rem;
+    padding-block: 10px;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .found-notify,
+  .end-notify {
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $blue;
+  }
+  
+  .load-buttons {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
