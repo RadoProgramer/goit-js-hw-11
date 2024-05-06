@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
       } else {
         loadMoreBtn.style.display = 'block';
       }
-      SimpleLightbox.refresh();
+      initSimpleLightbox();
       scrollToGallery();
     } catch (error) {
       console.error('Error fetching images:', error);
@@ -77,6 +77,10 @@ document.addEventListener('DOMContentLoaded', function () {
       </div>
     `).join('');
     gallery.insertAdjacentHTML('beforeend', galleryHTML);
+    
+  }
+  function initSimpleLightbox() {
+    const lightbox = new SimpleLightbox('.gallery a', {});
   }
 
   function scrollToGallery() {
