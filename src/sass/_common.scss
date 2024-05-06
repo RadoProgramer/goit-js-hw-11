@@ -1,6 +1,6 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
-$wheat: rgb(245, 232, 209);
+$wheat: rgb(255, 255, 255);
 $blue: rgb(34, 58, 163);
 
 * {
@@ -15,7 +15,7 @@ body {
 }
 
 button {
-  border-radius: 20px;
+  border-radius: 5px;
   padding: 10px;
 
   &:hover {
@@ -27,7 +27,7 @@ form {
   padding-block: 30px;
 }
 input {
-  border-radius: 20px;
+  border-radius: 5px;
   padding: 10px;
 }
 

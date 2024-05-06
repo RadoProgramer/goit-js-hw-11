@@ -22,7 +22,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    // gap: 1rem;
     padding-block: 10px;
   }
   
@@ -38,8 +37,8 @@
     color: black;
   }
   
-  .found-notify,
-  .end-notify {
+  .form-notify,
+  .gallery-notify {
     padding: 2rem;
     font-size: 2rem;
     font-weight: 700;

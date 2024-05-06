@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(245, 232, 209);
+  background-color: rgb(255, 255, 255);
   font-size: 20px;
   text-align: center;
 }
@@ -14,9 +14,10 @@ button {
   border-radius: 20px;
   padding: 10px;
 }
+
 button:hover {
   background-color: rgb(34, 58, 163);
-  color: rgb(245, 232, 209);
+  color: rgb(255, 255, 255);
 }
 
 form {
@@ -41,7 +42,7 @@ input {
 }
 
 h1 {
-  color: rgb(245, 232, 209);
+  color: rgb(255, 255, 255);
 }
 
 .gallery {
@@ -100,4 +101,4 @@ a {
   display: flex;
   gap: 30px;
   justify-content: center;
-}/*# sourceMappingURL=index.css.map */
+}
